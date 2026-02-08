@@ -4,5 +4,11 @@ numpy
 scikit-learn
 tensorboard
 matplotlib
-streamlit
+
+
 scikeras
+
+                # Removes the version pin; allows 2.20+ for Python 3.13
+streamlit==1.36.0           # Forces Streamlit to a version that supports Protobuf 5
+protobuf                    # Removes the pin; allows Protobuf 5.x
+
